@@ -1,0 +1,46 @@
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.selected-plan {
+  font-size: 18px;
+}
+
+.plan-bold {
+  font-weight: bold;
+}
+
+.item-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.input-number {
+  width: 100%;
+}
+
+.submit-btn {
+  width: 30%;
+  float: left;
+  color: white !important;
+  background-color: #ee5a36 !important;
+}
+
+.submit-btn:hover{
+
+  color:#ee5a36 !important;;
+  background-color:  white !important;
+  border-color: #ee5a36 !important;
+}
+
+@media(max-width:400px){
+  .submit-btn {
+    width: 40%;
+    /* float: left; */
+    color: white !important;
+    background-color: #ee5a36 !important;
+  }
+}

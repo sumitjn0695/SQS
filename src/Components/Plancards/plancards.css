@@ -1,0 +1,161 @@
+.card-wrapper {
+  /* display: flex; */
+  margin: -24px !important;
+}
+.grid-style {
+  width: 19% !important;
+  margin: 0.5%;
+  text-align: center;
+  float: left;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.line-break {
+  display: none;
+}
+
+.popular-head {
+  background: #ee5a36;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.card-head {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.plan-name {
+  background: #596678;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.mid-content {
+  padding-bottom: 10px;
+}
+
+.mid-content-popular {
+  background: #f7f7f7;
+  padding-bottom: 10px;
+}
+
+.dotted {
+  border-top: 2px dotted #d1d1d1;
+  margin: 0.5em 2em;
+}
+
+.data-value {
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin: 0;
+  color: #596678;
+  font-weight: 500;
+}
+
+.price-value {
+  font-size: 45px;
+    margin: 0;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.mid-content-text {
+  font-size: 16px;
+  color: #596678;
+  margin: 15px 0 3px;
+  font-weight: 500;
+}
+.mid-content-text1 {
+  font-size: 16px;
+  color: #596678;
+  margin: 15px 0 3px;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.plan-total {
+  background: #596678;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.btn-class {
+  width: 100%;
+  margin: 10px 0;
+  height: 60px !important;
+  font-size: 18px !important;
+  color: #ee5a36 !important;
+  border-color: #ee5a36 !important;
+}
+.btn-class:hover {
+  background-color: #ee5a36 !important;
+  color: white !important;
+}
+.btn-class-popular {
+  width: 100%;
+  margin: 10px 0;
+  height: 60px !important;
+  font-size: 18px !important;
+  background-color: #ee5a36 !important;
+  color: white !important;
+}
+.btn-class-popular:hover {
+  background-color: white !important;
+  border-color: #ee5a36 !important;
+  color: #ee5a36 !important;
+}
+.extra-content {
+  background: #f7f7f7;
+  height: 373px;
+  font-size: 20px;
+  padding: 55% 20px;
+  color: #596678;
+  font-weight: 500;
+}
+
+@media (max-width: 1300px) {
+  .grid-style {
+    width: 48% !important;
+    margin: 1%;
+    text-align: center;
+    float: left;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .extra-content {
+    height: 275px;
+    padding: 25% 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid-style {
+    width: 100% !important;
+    margin: 20px 0;
+    text-align: center;
+    float: left;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .card-head {
+    display: none;
+  }
+
+  .line-break {
+    display: grid;
+    border-top: 0.6px solid #d1d1d1;
+  }
+  .extra-content {
+    height: 300px;
+    padding: 24% 10px;
+  }
+}

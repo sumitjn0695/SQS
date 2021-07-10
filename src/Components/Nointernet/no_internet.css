@@ -1,0 +1,30 @@
+.no-internet {
+  /* display: table; */
+  height: 100vh;
+  overflow: hidden;
+  background-color: #5a6f90;
+  position: absolute;
+  top:0;
+  width: 100%;
+  z-index: 10000; 
+  animation: mymove 0.5s;
+}
+
+@keyframes mymove {
+  from {height: 0px;}
+  to {height: 100vh;}
+}
+
+.middle-text{
+    position: relative;
+    color: white;
+    top: 46%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media(max-width:500px){
+  .middle-text{
+    font-size: 24px;
+}
+}

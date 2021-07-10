@@ -1,0 +1,59 @@
+.radio-toolbar input[type="radio"] {
+    display: none;
+  }
+
+  .radio-toolbar{
+      /* width: 100%; */
+      margin:50px 0px;
+      display: flex;
+  }
+  
+  .radio-toolbar label {
+    display: inline-block;
+    background-color: #f7f7f7;
+    /* font-family: Arial; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #425065;
+    padding: 25px 5px;
+  }
+  
+  .radio-toolbar input[type="radio"]:checked+label {
+    background-color: #5a6f90;
+    color: #ffffff;
+  }
+
+  @media(max-width:1000px){
+    .radio-toolbar label {
+      background-color: #f7f7f7;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #425065;
+      padding: 15px 5px;
+    }
+  }
+
+  @media(max-width:760px){
+    .radio-toolbar label {
+      background-color: #f7f7f7;
+      width: 100% !important;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #425065;
+      padding: 10px 5px;
+      border-radius: 0 !important;
+      border-right: none !important;
+    }
+    .radio-toolbar{
+      margin:50px 0px;
+      display: grid;
+  }
+
+  }
