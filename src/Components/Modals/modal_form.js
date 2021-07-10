@@ -60,6 +60,7 @@ const Modalform = (props) => {
           onCancel={onCancel}
           width={"80vh"}
           footer={null}
+          className="modal-class"
         >
           <p className="selected-plan">
             <span className="plan-bold">Plan Selected:</span>{" "}
